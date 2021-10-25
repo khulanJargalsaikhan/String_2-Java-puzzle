@@ -18,8 +18,8 @@ So "xxyz" counts but "x.xyz" does not.
 String where all chars have been replaced by pluses ("+"), 
 except for appearances of the word string which are preserved unchanged.
 
-plusOut("12xy34", "xy") 		  - "++xy++"
+  plusOut("12xy34", "xy") 		  - "++xy++"
 
-plusOut("12xy34", "1") 			  - "1+++++"
+  plusOut("12xy34", "1") 			  - "1+++++"
 
-plusOut("12xy34xyabcxy", "xy") 	- "++xy++xy+++xy"
+  plusOut("12xy34xyabcxy", "xy") 	- "++xy++xy+++xy"
