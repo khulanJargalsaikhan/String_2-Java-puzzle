@@ -29,9 +29,13 @@ starting with 'z' and ending with 'p'. Return a string where for all such words,
 the middle letter is gone, so "zipXzap" yields "zpXzp".
 
 	zipZap("zipXzap") 	--	"zpXzp"
+	
 	zipZap("zopzop") 	-- 	"zpzp"
+	
 	zipZap("zzzopzop") 	-- 	"zzzpzp"
+	
 	zipZap("abcppp") 	-- 	"abcppp"
+	
 	zipZap("zi") 		-- 	"zi"
 	
 	
