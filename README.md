@@ -34,3 +34,4 @@ the middle letter is gone, so "zipXzap" yields "zpXzp".
 	zipZap("abcppp") 	-- 	"abcppp"
 	zipZap("zi") 		-- 	"zi"
 	
+	
